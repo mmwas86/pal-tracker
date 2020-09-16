@@ -82,4 +82,15 @@ public class TimeEntry {
         return false;
     }
 
+    @Override
+    public String toString() {
+        return "TimeEntry{" +
+                "id=" + id +
+                ", projectId=" + projectId +
+                ", userId=" + userId +
+                ", date='" + date + '\'' +
+                ", hours=" + hours +
+                '}';
+    }
+
 }
